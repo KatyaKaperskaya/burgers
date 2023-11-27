@@ -1,13 +1,135 @@
-<!doctype html>
-<html lang="en" data-critters-container>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Burgers</title>
-  <base href="/burgers/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<style>*{margin:0;padding:0}@font-face{font-family:Gilroy;src:url(Gilroy-Semibold.04e2f3d6f9e878bd.ttf)}body{background-color:#191411;font-family:Gilroy,sans-serif;color:#fff}</style><link rel="stylesheet" href="styles.22f9519a2fb4232f.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.22f9519a2fb4232f.css"></noscript></head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee-House</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
 <body>
-  <app-root></app-root>
-<script src="runtime.bab105b0b4279f8f.js" type="module"></script><script src="polyfills.aa1c9b4bb8c69daf.js" type="module"></script><script src="main.f3fffc6983164a55.js" type="module"></script></body>
-</html>
+    <!-- Header start -->
+    <div class="container">
+        <header class="header">
+            <img src="./assets/logo.png" alt="logo" class="header_logo-pic">
+                    <nav class="header_nav">
+                    <ul class="header">
+                        <li class="header__item">
+                            <a href="#favorite" class="menu__link">Favorite coffee</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#about" class="menu__link">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#mobile" class="menu__link">Mobile app</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contacts" class="menu__link js-scroll">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="menu.html" class="menu link menu__link_hard">
+                    <span>Menu</span>
+                    <img src="./assets/icons/coffee-cup.svg" alt="coffee-cup">
+                </a>
+            </header>
+            <!-- Header end -->
+
+            <!-- Main start -->
+            <main class="main">
+                <section class="section enjoy">
+                    <div class="enjoy__wrapper">
+                    <h1 class="enjoy title"><span class="mark">Enjoy</span> premium coffee at out charming cafe</h1>
+                    <p class="enjoy_description">With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
+                    <div class="enjoy__tools">
+                        <button class="button">Menu</button>
+                    </div>
+                </div>
+                </section>
+
+                <section class="section favorite" id="favorite">
+                    <h2 class="section__title">Choose your <span class ='mark'>favorite</span> coffee</h2>
+                    <div class="favorite__slider">
+                        <div class="favorite__slider__left">
+                            <button class="button button_round">
+                                <svg with="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="https://www.w3.org/2000/svg">
+                                    <path class="button_svg" d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="favorite__slider__wrap">
+                            <div class="slider__item">
+                                <img src="./assets/img/slider/coffee-slider-1.png" alt="slider-item1" class="slider__item__img">
+                                <div class="slider__item__body">
+                                    <p class="slider__item__title">S'mores Frappuccino</p>
+                                    <p class="slider__item__descr">This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.</p>
+                                    <p class="slider__item__price">$5.50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="favorite__slider__right">
+                            <button class="button button_round">
+                                <svg with="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="https://www.w3.org/2000/svg">
+                                    <path class="button_svg" d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="favorite-tools">
+                        <div class="favorite__tools__control active"></div>
+                        <div class="favorite__tools__control"></div>
+                        <div class="favorite__tools__control"></div>
+                    </div>
+                    </section>
+
+                    <section class="section about" id="about">
+                        <h2 class="section__title section__title_about">
+                            Resource is <span class="mark">the perfect and cozy place</span> where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.
+                        </h2>
+                        <div class="about__wrapper">
+                            <div class="about__item about__item_1">
+                                <img src="./assets/img/about/about-1.png" alt="about-1" class="about__img">
+                            </div>
+                            <div class="about__item about__item_2">
+                                <img src="./assets/img/about/about-2.png" alt="about-1" class="about__img">
+                            </div>
+                            <div class="about__item about__item_3">
+                                <img src="./assets/img/about/about-3.png" alt="about-1" class="about__img">
+                            </div>
+                            <div class="about__item about__item_4">
+                                <img src="./assets/img/about/about-4.png" alt="about-1" class="about__img">
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <!-- Main end -->
+
+                <!-- Footer start -->
+                <footer class="footer">
+                    <div class="footer__descr">
+                        <h2 class="section__title section__title_footer">Sip, Savor, Smile. <span class="'mark">It's coffee time!</span></h2>
+                    </div>
+                    <div class="footer__contacts">
+                        <p class="footer__title">Contact us</p>
+                        <div class="footer__contacts__wrap">
+                            <a href="" class="footer__link footer__link_pin">
+                                <img src="./assets/icons/pin-alt.svg" alt="coffee-cup">
+                                <span>8558 Green Rd., LA</span>
+                            </a>
+                            <a href="" class="footer__link footer__link_phone">
+                                <img src="./assets/icons/phone.svg" alt="coffee-cup">
+                                <span>+1 (603) 555-0123</span>
+                            </a>
+                            <p class="footer__line">
+                                <img src="./assets/icons/clock.svg" alt="coffee-cup">
+                                <span>Mon-Sat: 9:00 AM - 23:00 PM</span>
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer start -->
+
+                <script src="./js/main-es6.js"></script>
+            </div>
+        </body>
+        </html>
